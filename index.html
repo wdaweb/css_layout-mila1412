@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    html,
+    body {
+      height: 100%;
+    }
+
+    body {
+      background: linear-gradient(to bottom, white 80%, rgba(20, 20, 20, 0.747) 100%);
+      overflow-y: hidden;
+    }
+
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 75%;
+      height: 62%;
+      box-shadow: 0px 10px 5px 0px rgba(146, 145, 145, 0.3);
+      -webkit-box-reflect: below 10px linear-gradient(transparent, rgba(0, 0, 0, 0.3));
+      color: rgb(49, 49, 49)
+    }
+
+    .box1,
+    .box2,
+    .box3,
+    .box4 {
+      position: relative;
+      float: left;
+      width: 25%;
+      height: 100%;
+      box-sizing: border-box;
+      transition: 1s;
+      text-align: center;
+      padding-top: 6%;
+      padding-left: 1.5%;
+      padding-right: 2.1%;
+    }
+
+    .box1 {
+      background: linear-gradient(to right, white 90%, rgba(223, 222, 222, 0.822) 100%);
+    }
+
+    .box2 {
+      background: linear-gradient(to right,
+          rgba(238, 238, 238, 0.822) 0%, white 10%, white 90%, rgba(223, 222, 222, 0.822) 100%);
+    }
+
+    .box3 {
+      background: linear-gradient(to right,
+          rgba(238, 238, 238, 0.822) 0%, white 10%, white 90%, rgba(223, 222, 222, 0.822) 100%);
+    }
+
+    .box4 {
+      background: linear-gradient(to right, rgba(238, 238, 238, 0.822) 0%, white 10%);
+    }
+
+    .box1:hover {
+      color: red;
+      border-bottom: 5px solid red;
+      background-color: red;
+      transform: scale(1.1);
+      transform-origin: right;
+    }
+
+    .box2:hover {
+      color: orange;
+      border-bottom: 5px solid orange;
+      background-color: orange;
+      transform: scale(1.1);
+      transform-origin: right;
+    }
+
+    .box3:hover {
+      color: yellowgreen;
+      border-bottom: 5px solid yellowgreen;
+      background-color: yellowgreen;
+      transform: scale(1.1);
+      transform-origin: right;
+    }
+
+    .box4:hover {
+      color: skyblue;
+      border-bottom: 5px solid skyblue;
+      background-color: skyblue;
+      transform: scale(1.1);
+      transform-origin: right;
+    }
+
+
+    img {
+      width: 43%;
+      border-radius: 50%;
+    }
+
+    p {
+      position: absolute;
+      top: 42%;
+      width: 85%;
+      font-size: 1.1rem;
+      line-height: 1.5;
+      text-align: left;
+      color: rgb(102, 102, 102);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="box1">
+      <img src="https://picsum.photos/150/150/?random=1">
+      <p>參考運行平台分為看著委託職業她是去了放心西部文件大小表面，不去時候故障，西方計算，出租相信因此導演快車組成登記聯繫死了這一，真實找到進口程式相同引起暴力網頁班，無比文檔閲讀者，上傳植物，選項頭銜參加。
+      </p>
+    </div>
+    <div class="box2">
+      <img src="https://picsum.photos/150/150/?random=2">
+      <p>參考運行平台分為看著委託職業她是去了放心西部文件大小表面，不去時候故障，西方計算，出租相信因此導演快車組成登記聯繫死了這一，真實找到進口程式相同引起暴力網頁班，無比文檔閲讀者，上傳植物，選項頭銜參加。
+      </p>
+    </div>
+    <div class="box3">
+      <img src="https://picsum.photos/150/150/?random=3">
+      <p>參考運行平台分為看著委託職業她是去了放心西部文件大小表面，不去時候故障，西方計算，出租相信因此導演快車組成登記聯繫死了這一，真實找到進口程式相同引起暴力網頁班，無比文檔閲讀者，上傳植物，選項頭銜參加。
+      </p>
+    </div>
+    <div class="box4">
+      <img src="https://picsum.photos/150/150/?random=4">
+      <p>參考運行平台分為看著委託職業她是去了放心西部文件大小表面，不去時候故障，西方計算，出租相信因此導演快車組成登記聯繫死了這一，真實找到進口程式相同引起暴力網頁班，無比文檔閲讀者，上傳植物，選項頭銜參加。
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>
